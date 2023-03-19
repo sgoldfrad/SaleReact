@@ -1,0 +1,7 @@
+[
+    { "id": 111, "name": "חופשה זוגית", "src": "../assets/vocation.jpg" ,"description":"מטבח כמו שחלמת תמיד..."},
+    { "id": 112, "name": "רכב יוקרתי", "src": "../assets/car.jpg" ,"description":"אפילו שאת לא יודעת לנהוג כדאי לך לזכות"},
+    { "id": 113, "name": " טיול לכל המשפחה", "src": "../assets/trip.jpg","description":"חלום של כל אחד" },
+    { "id": 114, "name": "אוכל לכל השבת", "src": "../assets/shabat.jpg" ,"description":"לכבוד שבת קודש"}
+
+]

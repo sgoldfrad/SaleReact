@@ -1,0 +1,158 @@
+.d{
+  width: 18rem;
+}
+body,#body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  height: 100vh;
+  direction: rtl;
+  color:black; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* עיצוב לNAVBAR */
+header {
+  position: sticky;
+  top: 0;
+}
+header link{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page-wrapper {
+  height: calc(100vh - 186px);
+  overflow-y: auto;
+}
+
+ul {
+text-align: center;
+  right: 0px;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  direction: rtl;
+  display: flex;
+  
+}
+
+li {
+  float: left;
+  cursor: pointer;
+  font-size: large;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+text-decoration: underline;
+ color:red;
+
+}
+
+#logo {
+  height: 100px;
+}
+
+#donation{
+  border-radius: 21px;
+  height: 5vh;
+
+}
+nav{
+  background: #fff;
+  color: #000000;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #F1F0F0;
+  height: 50px;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+header{
+position: sticky;
+top: 0;
+z-index: 1020;
+background: #fff;
+  font-family: 'Almoni-light';
+  transition: all 0.4s linear;
+  border-top: 1px solid #E71D24;
+}
+#img{
+width: 100%;
+}
+/* עיצוב פרטי מוצרים */
+.div-container{
+display: flex;
+flex-direction: row;
+width: 100%; 
+}
+#description{
+width: 50vw;
+}
+@media (max-width: 800px) {
+.flex-container {
+  flex-direction: column;
+}
+}
+
+* {
+box-sizing: border-box;
+}
+
+.mydiv{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-right: 109px;
+padding-top: 5px;
+}
+.item{
+width: 40%;
+margin: 50px;
+text-align: center;
+box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+background-color: white;
+border-radius: 8px;
+}
+.item img{
+width: 34vw;
+height: 39vh
+}
+.requierds{
+  color: red;
+  font-size:0.7em;
+}
+.inputs{
+width:30vw;
+}
+#body{
+  text-align: center;
+  margin:auto;
+}
+#login{
+  margin-top: 10vh;
+}
+
+#register{
+  text-align: center;
+  margin:auto;
+  margin-top: 5vh;
+}
